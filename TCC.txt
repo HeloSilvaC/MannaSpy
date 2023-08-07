@@ -1,0 +1,34 @@
+brinquedo.
+interação como se fosse um brinquedo, som, personalizar.
+sensor de áudio pega a informação de áudio e manda para nuvem.
+problemas do celular para as crianças = atrativo, inocente.
+monitorando, perigo.
+audio consegue criar um perfil de usuário, armadilha.
+até as coisas boas podem alimentar você e transformar em coisas ruim.
+
+
+
+Os brinquedos interativos com som e personalização são muito atrativos para as crianças. Porém, é importante considerar o uso de sensores de áudio que enviam informações para a nuvem, o que pode representar riscos de privacidade.
+
+Além disso, é comum as crianças terem acesso a celulares, que podem parecer inofensivos, mas também apresentam riscos se não forem monitorados adequadamente pelos pais ou responsáveis. O áudio é uma forma de capturar informações pessoais e criar perfis de usuário, o que pode ser uma armadilha para as crianças.
+
+Por isso, é importante conscientizar sobre os possíveis riscos de dispositivos eletrônicos e enfatizar a importância do controle e monitoramento adequado, mesmo em dispositivos que parecem inocentes. Dessa forma, é possível aproveitar os benefícios das novas tecnologias sem colocar em risco a privacidade e a segurança das crianças.
+
+OpenAI. (2021). ChatGPT [software]. GitHub repository. https://github.com/openai/gpt-3
+
+
+
+
+
+
+Definição dos objetivos educacionais: Nesta etapa, pretendo definir os objetivos educacionais do projeto MannaSpy, que incluem ensinar as crianças sobre a tecnologia IoT e conscientizá-las sobre os riscos envolvidos na utilização da internet.
+
+Desenvolvimento do robô MannaSpy: Vou programar o robô MannaSpy para se comportar como um amigo das crianças, interagindo com elas e fazendo perguntas relacionadas à privacidade e segurança na internet. As respostas das crianças serão armazenadas em nuvem e posteriormente utilizadas em uma atividade de conscientização sobre a importância de não compartilhar informações pessoais na internet.
+
+Desenvolvimento das atividades educacionais: Com base nos objetivos educacionais do projeto, vou desenvolver atividades educacionais que possam ser realizadas com o MannaSpy. Por exemplo, o robô pode passar instruções que parecem uma brincadeira, sugerindo que as crianças publiquem fotos em redes sociais com informações de localização ou que adicionem desconhecidos como amigos em jogos online. As instruções serão utilizadas para ensinar às crianças que nem todas as informações que encontramos na internet são confiáveis ou seguras e que não devemos fazer tudo que vemos na internet.
+
+Testes com crianças: Para validar a eficácia das atividades educacionais desenvolvidas, vou realizar testes com crianças, observando suas reações e avaliando seus conhecimentos antes e depois da interação com o robô MannaSpy.
+
+Análise dos resultados: Com base nos resultados dos testes com crianças, vou fazer uma análise sobre a eficácia das atividades educacionais e identificar possíveis melhorias a serem implementadas no projeto.
+
+Disseminação do projeto: Após a validação das atividades educacionais, vou disseminar o projeto MannaSpy para outras escolas e instituições que possam se beneficiar da utilização do robô como ferramenta educacional para ensinar sobre IoT e boas práticas de segurança e privacidade online para crianças.
