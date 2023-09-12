@@ -71,14 +71,6 @@ void mostrarCores() {
   setColor(255, 255, 0);
   delay(500);
 
-  // Ciano
-  setColor(0, 255, 255);
-  delay(500);
-
-  // Magenta
-  setColor(255, 0, 255);
-  delay(500);
-
   // Branco
   setColor(255, 255, 255);
   delay(500);
@@ -101,24 +93,24 @@ void setColor(int R, int G, int B) {
 
 void processarDadosRecebidos() {
   if (SerialBT.available()) {
-    String receivedData = SerialBT.readString();
+    lcd.clear();
+    receivedData = SerialBT.readString();
     Serial.println("Texto recebido: " + receivedData);
 
-    // Verifica se o texto cabe na linha do LCD
-    if (cleanedData.length() <= 16) {  // Supondo que a largura do LCD é de 16 caracteres
-      lcd.setCursor(0, 1);             // Posiciona o cursor na segunda linha
-      lcd.print("                ");   // Limpa a segunda linha
-      lcd.setCursor(0, 1);             // Posiciona o cursor novamente na segunda linha
-      lcd.print(cleanedData);          // Exibe o texto recebido na segunda linha do LCD
+    lcd.setCursor(0, 0);
+    lcd.print("                ");
+    lcd.setCursor(0, 0);
+
+    if (receivedData.length() <= 16) {
+      lcd.print(receivedData);
     } else {
-      // O texto é maior do que a largura do LCD, então você pode truncá-lo
-      lcd.setCursor(0, 1);                      // Posiciona o cursor na segunda linha
-      lcd.print("                ");            // Limpa a segunda linha
-      lcd.setCursor(0, 1);                      // Posiciona o cursor novamente na segunda linha
-      lcd.print(cleanedData.substring(0, 16));  // Exibe apenas os primeiros 16 caracteres
+      lcd.print(receivedData.substring(0, 16));
+      lcd.setCursor(0, 1);
+      lcd.print(receivedData.substring(16));
     }
   }
 }
+
 
 void setup() {
   // Configurar os pinos do LED RGB como saída
@@ -159,7 +151,6 @@ void loop() {
   if (distanceCm <= 30) {
     // Define a sequência de cores do LED RGB
     mostrarCores();
-    delay(1000);
   } else {
     // Desliga o LED RGB
     setColor(0, 0, 0);
@@ -167,3 +158,4 @@ void loop() {
 
   processarDadosRecebidos();  // Processa os dados recebidos via Bluetooth
 }
+
