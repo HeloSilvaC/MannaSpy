@@ -1,5 +1,5 @@
 <!-- Título e Descrição -->
-# MannaSpy - Educação Digital para Crianças 👩‍🏫🌐
+# MannaSpy - Educação Digital para Crianças 👩‍🏫🌐 (Finalizado em 2023)
 
 Olá, sou Helo, e este é o meu TCC, o **MannaSpy**. Estou desenvolvendo este projeto inovador, com o objetivo de capacitar crianças no mundo digital, ensinando tecnologia, privacidade e segurança de forma prática e envolvente.
 
@@ -26,14 +26,6 @@ A tecnologia mudou a forma como as crianças interagem com o mundo, apresentando
 ## 🚀 Status do Projeto
 
 Estou no desenvolvimento, trabalhando arduamente para criar uma robô educacional envolvente. Novos recursos e melhorias serão adicionados no futuro próximo.
-
-## 📧 Contato
-
-Se você tiver alguma dúvida, sugestão ou quiser entrar em contato, você pode:
-
-- Enviar um e-mail para: helo.contreta@gmail.com
-
-Junte-se a mim no **MannaSpy** e ajude a moldar o futuro digital das crianças! 🌟📱
 
 <br><br>
 
